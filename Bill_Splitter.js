@@ -12,7 +12,7 @@ console.log(tip); //outputs tip value
 let total = bill + tip;
 
 //output details
-console.log('The bill was $${bill}, the tip was $${tip.toFixed(2)}, and the total value is $${total.toFixed(2)}');
+console.log(`The bill was $${bill}, the tip was $${tip.toFixed(2)}, and the total value is $${total.toFixed(2)}`);
 
 
 //Task 3: Create calculateTip function
