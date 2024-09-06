@@ -26,7 +26,7 @@ console.log(`For a bill of $${testBill}, the tip is $${testTip.toFixed(2)}, and 
 //Task 4: Utilize Arrays
 
 const bills = [275, 40, 430, 125, 555, 44];
-const tips = bills.map(bill => calculateTip(bills));
+const tips = bills.map(bill => calculateTip(bill));
 const totals = bills.map((bill, index) => bill + tips[index]);
 
 ///Display arrays
