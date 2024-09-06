@@ -21,7 +21,7 @@ const calculateTip = (bill) => (bill >= 50 && bill <= 300) ? bill * 0.15 : bill 
 //Testing function
 let testBill = 100;
 let testTip = calculateTip(testBill);
-console.log(`For a bill of $${testBill}, the tip is $${testTip.toFixed(2)}, and the total value is $${total.toFixed(2)}`);
+console.log(`For a bill of $${testBill}, the tip is $${testTip.toFixed(2)}, and the total value is $${(testBill+testTip).toFixed(2)}`);
 
 //Task 4: Utilize Arrays
 
